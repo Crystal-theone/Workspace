@@ -1,0 +1,7 @@
+li=list(range(4))
+print(li)
+li=list(range(-4,4,2))
+print(li)
+print([x*2 for x in range(4)])
+print([[x*2,x*3]for x in range(4)])
+print([[x*1,[x*2,x*3]] for x in range(-4,4,1)])

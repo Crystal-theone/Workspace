@@ -1,0 +1,11 @@
+di={"uzair":"1","Ali":"2"}
+print(di["uzair"])
+print("%(uzair)s"%di)
+di["sample"]=list((1,2,3,4));
+print(di)
+print(di["sample"][0])
+lis=[1,2,3,4,5];
+lis[:]=[6,7,8,9];
+print(lis)
+di.update({"saqib":"3","Ahmed":4})
+print(di)

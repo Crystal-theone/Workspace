@@ -1,0 +1,6 @@
+res=''.join(x.upper() for x in "aaa,bbb,ccc".split(','))
+print(res)
+a,b,c=(1,2,3)
+print(a,b,c)
+a=tuple(x.upper() for x in "aaa,bbb,ccc".split(','))
+print(a)

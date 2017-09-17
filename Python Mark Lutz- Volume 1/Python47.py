@@ -1,0 +1,6 @@
+s=set('1,2,3,4,uzair')
+print(s)
+print('u' in s)
+s.update('ali')
+print(s)
+print(range(-2,2))

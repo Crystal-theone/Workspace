@@ -1,0 +1,2 @@
+p="hacker"
+print(p[:])

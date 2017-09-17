@@ -1,0 +1,10 @@
+fileObject=open("Files\\Storage3.txt","wb");
+dict={"1":2,"2":3,3:"4"};
+print(dict);
+import pickle;
+pickle._dump(dict,fileObject,protocol=0);
+print("Data Pickled");
+fileObject.close();
+fileObject=open("Files\\Storage3.txt","rb");
+filedata=pickle.load(fileObject);
+print(filedata);

@@ -1,0 +1,2 @@
+developerNmae="Uzair"
+print(locals())
